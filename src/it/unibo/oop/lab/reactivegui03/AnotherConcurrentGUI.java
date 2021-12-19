@@ -74,6 +74,7 @@ public final class AnotherConcurrentGUI extends JFrame {
                 stop.setEnabled(false);
             }
         });
+
         new Thread(new Runnable() {
             @Override
             public void run() {
